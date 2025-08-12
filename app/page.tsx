@@ -14,7 +14,7 @@ export default function Home() {
         Welcome to My Portfolio
       </h1>
       <p className="mt-4 text-lg">
-        Halo, saya Ghina. Seorang Web Developer yang suka membuat aplikasi kreatif dan menarik.
+        Halo, saya Ghina Salwa Fajriani. Saya adalah seorang mahasiswa Semester 6 dengan Jurusan Sistem Informasi dan Program Studi S1 Teknik Informatika.
       </p>
     </div>
   );
