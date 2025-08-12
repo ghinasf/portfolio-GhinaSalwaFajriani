@@ -1,6 +1,6 @@
 "use client";
 
-const EMAIL = "emailkamu@example.com"; // ganti dengan emailmu
+const EMAIL = "ghinasalwaf0812@gmail.com"; // ganti dengan emailmu
 
 function buildGmailUrl(to: string, subject?: string, body?: string) {
   const base = "https://mail.google.com/mail/";
