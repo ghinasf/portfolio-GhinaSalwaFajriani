@@ -1,50 +1,48 @@
 export default function Projects() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-pink-500 mb-4">Projects</h1>
-      <ul className="list-disc pl-5 space-y-6">
-        
-        <li>
-          <h2 className="text-xl font-semibold text-pink-700">
+    <div className="min-h-screen bg-gradient-to-b from-white to-pink-50 p-6">
+      <h1 className="text-3xl font-bold text-pink-600 mb-8 text-center">Projects</h1>
+
+      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        {/* Project 1 */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300">
+          <h2 className="text-xl font-semibold text-pink-700 mb-2">
             Media Pembelajaran Anak
           </h2>
-          <p className="text-gray-700 mb-2">
-            Media edukasi interaktif untuk anak usia dini dalam mengenal huruf abjad dan berbagai jenis hewan. 
-            Menggunakan Canva dengan ilustrasi ramah anak, tipografi jelas, dan warna cerah untuk menciptakan 
-            pengalaman belajar yang menyenangkan.
+          <p className="text-gray-700 mb-4">
+            Media edukasi interaktif untuk anak usia dini mengenal huruf abjad 
+            dan hewan. Dibuat dengan Canva, menonjolkan warna cerah dan desain ramah anak.
           </p>
           <a
-  href="https://www.canva.com/design/DAGrb8jq_9Y/WUDmbE5us3KjK4JcHEh4CA/edit?utm_content=DAGrb8jq_9Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
->
-  Lihat di Canva
-</a>
+            href="https://www.canva.com/design/DAGrb8jq_9Y/WUDmbE5us3KjK4JcHEh4CA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
+          >
+            Lihat di Canva
+          </a>
+        </div>
 
-        </li>
-
-        <li>
-          <h2 className="text-xl font-semibold text-pink-700">
-            Desain Website Perusahaan Sumber Pasir 
+        {/* Project 2 */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300">
+          <h2 className="text-xl font-semibold text-pink-700 mb-2">
+            Desain Website Perusahaan Sumber Pasir
           </h2>
-          <p className="text-gray-700 mb-2">
-            Desain UI website perusahaan penyedia pasir dan batu menggunakan Figma, 
-            mencakup halaman Home, Tentang, Produk, Detail Produk, Kontak, dan Gallery. 
-            Mengusung tampilan sederhana, informatif, dan konsisten dengan identitas perusahaan.
+          <p className="text-gray-700 mb-4">
+            Desain UI perusahaan penyedia pasir dan batu menggunakan Figma.  
+            Mencakup halaman utama, produk, kontak, dan galeri dengan konsep 
+            sederhana namun profesional.
           </p>
           <a
-  href="https://www.figma.com/proto/3UNNHKlKL7kPf1TFljFE7A/TugasPSI_Ghina-Salwa-Fajriani?node-id=0-1&t=jddNhLx4OBWPqqjm-1"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
->
-  Lihat di Figma
-</a>
-
-        </li>
-
-      </ul>
+            href="https://www.figma.com/proto/3UNNHKlKL7kPf1TFljFE7A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
+          >
+            Lihat di Figma
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
